@@ -1,0 +1,10 @@
+<h1>Best Restaurants</h1>
+
+
+<ul>
+  <% @best_restaurants.each do |restaurant| %>
+    <li>
+      <%= restaurant.name %>
+    </li>
+  <% end %>
+</ul>
